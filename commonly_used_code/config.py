@@ -44,8 +44,6 @@ pro_conv_data_path = parser.get('SymblicQAF', 'pro_conv_data')
 sent_fact_data_path = parser.get('SymblicQAF', 'sent_fact_data')
 oracle_sent_fact_data_path = parser.get('SymblicQAF', 'oracle_sent_fact_data')
 
-ground_truth_sent_fact_data_path = parser.get('SymblicQAF', 'ground_truth_sent_fact_data')
-ground_truth_para_fact_data_path = parser.get('SymblicQAF', 'ground_truth_para_fact_data')
 # IDF data path
 facts_idf_path = parser.get('TFIDF', 'facts_idf_data')
 
@@ -73,24 +71,18 @@ wizard_train_facts_path = os.path.join(wizard_train_path, pro_facts_data_path)
 wizard_train_conv_path = os.path.join(wizard_train_path, pro_conv_data_path)
 wizard_train_sent_fact_path = os.path.join(wizard_train_path, sent_fact_data_path)
 wizard_train_oracle_sent_fact_path = os.path.join(wizard_train_path, oracle_sent_fact_data_path)
-wizard_train_ground_truth_sent_fact_path = os.path.join(wizard_train_path, ground_truth_sent_fact_data_path)
-wizard_train_ground_truth_para_fact_path = os.path.join(wizard_train_path, ground_truth_para_fact_data_path)
 
 wizard_valid_qa_path = os.path.join(wizard_valid_path, pro_qa_data_path)
 wizard_valid_facts_path = os.path.join(wizard_valid_path, pro_facts_data_path)
 wizard_valid_conv_path = os.path.join(wizard_valid_path, pro_conv_data_path)
 wizard_valid_sent_fact_path = os.path.join(wizard_valid_path, sent_fact_data_path)
 wizard_valid_oracle_sent_fact_path = os.path.join(wizard_valid_path, oracle_sent_fact_data_path)
-wizard_valid_ground_truth_sent_fact_path = os.path.join(wizard_valid_path, ground_truth_sent_fact_data_path)
-wizard_valid_ground_truth_para_fact_path = os.path.join(wizard_valid_path, ground_truth_para_fact_data_path)
 
 wizard_test_qa_path = os.path.join(wizard_test_path, pro_qa_data_path)
 wizard_test_facts_path = os.path.join(wizard_test_path, pro_facts_data_path)
 wizard_test_conv_path = os.path.join(wizard_test_path, pro_conv_data_path)
 wizard_test_sent_fact_path = os.path.join(wizard_test_path, sent_fact_data_path)
 wizard_test_oracle_sent_fact_path = os.path.join(wizard_test_path, oracle_sent_fact_data_path)
-wizard_test_ground_truth_sent_fact_path = os.path.join(wizard_test_path, ground_truth_sent_fact_data_path)
-wizard_test_ground_truth_para_fact_path = os.path.join(wizard_test_path, ground_truth_para_fact_data_path)
 
 
 # for DSTC Reddit
