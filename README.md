@@ -9,4 +9,5 @@ Functions of each folder
 5. models. The TED model is in this folder.
 6. example. The training process entrance is in this folder.
 
+For more models and usage, please refers to https://github.com/tonywenuon/keras_dialogue_generation_toolkit.
 
